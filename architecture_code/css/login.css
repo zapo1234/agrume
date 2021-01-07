@@ -1,0 +1,9 @@
+ body{width:100%;
+     background-color:#eee;
+	 
+ }
+  #form_principale{padding-left:15%;width:50%;margin-left:25%;margin-top:100px;background-color:white;height:600px;}
+  td{height:70px;padding-top:20px;font-size:20px;} .example{width:370px;height:50px;border:2px solid #eee;border-radius:5px;}
+  table{width:60%;} #btn{border:2px solid blue;font-family:'Roboto',serif;width:250px;height:45px;border-radius:10px;background-color:blue;color:white;}
+ 
+ 
