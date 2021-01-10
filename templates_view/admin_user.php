@@ -79,6 +79,7 @@ include('session_security/inc_session.php');
 	  <div class="x"><?= htmlspecialchars($lists['titre'])?> l'adresse:</br>
 	  <?= htmlspecialchars($lists['message'])?> <br/></div>
 	  <div><a href="annonces.php?action=show_annonce&id_annonce=<?= $lists['identifiant']?>">modifier</a></div>
+	 <div><a href="index.php?action=deconnexion">deconnexion</a></div>
 	 
 	 <?php
 	 }

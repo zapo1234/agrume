@@ -61,12 +61,18 @@ elseif($_GET['action']== 'login_user') {
 	
 }
 
+
+
 // la route index à l'ouverture du site
 elseif($_GET['action']== 'logins') {
 users();
 	
 }
 
+elseif($_GET['action'] == 'deconnexion') {
+	
+	deconnexion();
+}
 
 }
 
