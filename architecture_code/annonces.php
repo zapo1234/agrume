@@ -5,7 +5,7 @@ require('controller/annonces_controlleur.php');
 // on enregsitre l\'annonce du user dans la table
 if($_GET['action']== 'addAnnonce') {
 
-$identifiant = rand(1,150000);
+$identifiant = rand(1,120000);
 $titre = html_entity_decode($_POST['titre']);
 $message =html_entity_decode($_POST['message']);
 $email =$_SESSION['email'];
